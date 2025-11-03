@@ -1,0 +1,12 @@
+{
+  "name": "binapi",
+  "version": "1.0.0",
+  "description": "BIN Checker API",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "dev": "node api/bin.js",
+    "start": "node api/bin.js"
+  }
+}
