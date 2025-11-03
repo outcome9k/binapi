@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "builds": [
     {
       "src": "api/bin.php",
@@ -7,6 +7,11 @@
     }
   ],
   "routes": [
+    {
+      "src": "/api/bin",
+      "dest": "/api/bin.php",
+      "methods": ["GET"]
+    },
     {
       "src": "/(.*)",
       "dest": "/api/bin.php"
